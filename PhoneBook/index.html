@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PhoneBook</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>PhoneBook</h1>
+        <div class="table-container" id="table-container-id">
+            <span class="table-row table-header">
+                <strong>Id</strong>
+                <strong>First name</strong>
+                <strong>Second name</strong>
+                <strong>Number</strong>
+                <strong>Delete</strong>
+            </span>
+            <span id="table-body-id"></span>
+        </div>
+        <h2>Add to PhoneBook</h2>
+        <div class="add-to-table">
+            <div class="add-params">
+                <label for="new-first-name-id">First name</label>
+                <input type="text" class="new-first-name" placeholder="First Name" id="new-first-name-id">
+
+                <label for="new-second-name-id">Second name</label>
+                <input type="text" class="new-second-name" placeholder="Second Name" id="new-second-name-id">
+
+                <label for="new-number-id">Number</label>
+                <input type="tel" class="new-number" placeholder="Number" id="new-number-id">
+            </div>
+            <input type="submit" value="Add" id="new-person-submit">
+        </div>
+        <script src="index.js"></script>
+    </div>
+</body>
+</html>
