@@ -1,0 +1,31 @@
+{
+  "name": "pre-rest-api",
+  "version": "1.0.0",
+  "description": "preparation for hw rest-api",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --project tsconfig.build.json",
+    "start": "npm run build && node ./build/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Taya Penskaya",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pg": "^8.2.1",
+    "sequelize": "^5.21.11",
+    "sequelize-typescript": "^1.1.0",
+    "supertest": "^4.0.2",
+    "tslib": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/bluebird": "^3.5.32",
+    "@types/express": "^4.17.6",
+    "@types/express-serve-static-core": "^4.17.7",
+    "@types/node": "^14.0.11",
+    "@types/validator": "^13.0.0",
+    "reflect-metadata": "^0.1.13",
+    "typescript": "^3.9.3"
+  }
+}
